@@ -1,2 +1,6 @@
 # hello-world
-Test repository to learn about GitHub
+
+
+Hi there! 
+
+I'm just learning starting to learn this. I hope it'll make me a better marketer. 
