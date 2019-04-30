@@ -1,0 +1,33 @@
+<body> 
+<p>Hello Everyone,<p><br/> 
+<br/>
+<pr>Please help us in congratulating {!Account.OwnerFullName} in closing a new account for {!YEAR(TODAY())}. Details below:</p><br/>  
+
+<table>
+<tr>
+<td>Account</td>
+<td>{!Opportunity.Account}</td>
+</tr>
+<tr>
+<td>Sales Person</td>
+<td>{!Opportunity.OwnerFullName}</td>
+</tr>
+<tr>
+<td>Account Description</td> 
+<td>{!Account.Description}</td>
+<tr>
+<td>Estimated Eligibles</td? 
+<td>{!Opportunity.Estimated_Eligibles__c}</td>
+</tr>
+<tr>
+<td>Broker Account</td> 
+<td>{!Opportunity.Broker_Account__c}</td> 
+</tr>
+</table> 
+<br/>
+<p>Thanks, </p>
+<br/>
+<br/>
+<p>Crystal Robinson</p>
+<p>Director, Sales Operations </p>
+</body>
